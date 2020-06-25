@@ -10,7 +10,7 @@ function render (message) {
         <body>
             <h1>Welcome ${message}</h1>
             
-            <marquee>Hope you are doing well!!!!!!!!!</marquee>
+            <h2><marquee>Hope you are doing well!!!!!!!!!</marquee><h2>
         </body>
     </html>`
     return document
