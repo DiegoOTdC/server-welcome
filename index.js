@@ -9,6 +9,8 @@ function render (message) {
         </head>
         <body>
             <h1>Welcome ${message}</h1>
+            
+            <marquee>Hope you are doing well!!!!!!!!!</marquee>
         </body>
     </html>`
     return document
