@@ -21,7 +21,7 @@ function render (message) {
 app.get(
     '/user/:name',
     (request, response) => {
-        const message = `${request.params.name}` 
+        const message = request.params.name
         const page = render(message)
         response.send(page)
     }
